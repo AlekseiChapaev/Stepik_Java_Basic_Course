@@ -1,6 +1,3 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class IsPalindrome {
     public static boolean isPalindrome(String text) {
         String res = text.toLowerCase().replaceAll("[^a-zA-Z1-9]", "");
